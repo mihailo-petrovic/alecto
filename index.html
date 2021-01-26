@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alecto.</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Raleway"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header id="h">
+        <!-- All the images -->
+        <div class="carouselItem">
+          <img src="img/nebo1.jpg" alt="" />
+        </div>
+        <div class="carouselItem">
+          <img src="img/nebo2.jpg" alt="" />
+        </div>
+        <div class="carouselItem">
+          <img src="img/nebo3.jpg" alt="" />
+        </div>
+        <div class="carouselItem">
+          <img src="img/nebo4.jpg" alt="" />
+        </div>
+        <div class="carouselItem">
+          <img src="img/nebo5.jpg" alt="" />
+        </div>
+        <div class="heading" id="heading">
+          <!-- Should be a logo -->
+          <div id="logo"><a href="#">Alecto.</a></div>
+          <div id="nav">
+            <input type="checkbox" name="check" id="check" />
+            <label for="check" id="label-ham">
+              <span class="ham-icon">&#9776;</span>
+            </label>
+            <ul class="meni" id="meni">
+              <li><a href="#">HOME</a></li>
+              <li><a href="#about">ABOUT</a></li>
+              <li><a href="#objs">WORK</a></li>
+              <li><a href="#">SERVICES</a></li>
+              <li><a href="#">BLOG</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="carousel">
+          <a class="prev" id="prev" onclick="prev()">&#10094;</a>
+          <a class="next" id="next" onclick="next()">&#10095;</a>
+
+          <div class="carDiv">
+            <h1><strong>Alecto</strong> is simple PSD Template</h1>
+            <h4>This is a subtitle</h4>
+            <button class="learn">Learn more</button>
+            <div id="carouselNav"></div>
+          </div>
+        </div>
+      </header>
+
+      <div class="about" id="about">
+        <div id="aboutHead">
+          <h2>About us</h2>
+          <hr />
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
+            officiis architecto.
+          </p>
+        </div>
+        <div id="columns">
+          <div class="col">
+            <a href="#">
+              <div class="circ">
+                <img class="icon" src="img/rocket.png" alt="Rocket image" />
+              </div>
+            </a>
+            <h3>Lorem ipsum</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
+              suscipit eos illum
+            </p>
+          </div>
+          <div class="col">
+            <a href="#">
+              <div class="circ">
+                <img class="icon" src="img/atom.png" alt="Atom image" />
+              </div>
+            </a>
+            <h3>Lorem ipsum</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
+              suscipit eos illum
+            </p>
+          </div>
+          <div class="col">
+            <a href="#">
+              <div class="circ">
+                <img class="icon" src="img/stat.png" alt="Statistics image" />
+              </div>
+            </a>
+            <h3>Lorem ipsum</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
+              suscipit eos illum
+            </p>
+          </div>
+          <div class="col">
+            <a href="#">
+              <div class="circ">
+                <img class="icon" src="img/grad.png" alt="Hat image" />
+              </div>
+            </a>
+            <h3>Lorem ipsum</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
+              suscipit eos illum
+            </p>
+          </div>
+        </div>
+        <button class="learn">Learn more</button>
+      </div>
+
+      <div class="third" id="objs">
+        <img src="img/laptop.jpg" alt="Laptop image" />
+        <div>
+          <h2>Lorem ipsum</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+            quos vel, ratione culpa omnis aut amet fuga voluptas enim totam
+            commodi, voluptatum temporibus vitae. Necessitatibus laborum veniam
+            corrupti repudiandae doloremque.
+          </p>
+          <button class="learn">Learn more</button>
+        </div>
+      </div>
+
+      <div class="third" id="laptop">
+        <div>
+          <h2>Dolor sit amet</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+            quos vel, ratione culpa omnis aut amet fuga voluptas enim totam
+            commodi, voluptatum temporibus vitae. Necessitatibus laborum veniam
+            corrupti repudiandae doloremque.
+          </p>
+          <button class="learn">Learn more</button>
+        </div>
+        <img src="img/objectives.jpg" alt="Objectives image" />
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
